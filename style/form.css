@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/opensans/v43/font-weight-400-style-normal.eot);
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v43/font-weight-400-style-normal.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v43/font-weight-400-style-normal.woff) format('woff');
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
 .form {
     width: 300px;
     background-color: rgba(255, 255, 255, 1);
